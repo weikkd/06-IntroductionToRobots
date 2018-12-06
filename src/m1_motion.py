@@ -2,11 +2,11 @@
 An opportunity to explore how to make an EV3 Robot move.
 
 Authors: Dave Fisher, David Mutchler, Vibha Alangar,
-their colleagues, and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+their colleagues, and Kaitlin Weik.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 # -----------------------------------------------------------------------------
-# TODO: 2.
+# DONE: 2.
 #   Follow along with the lecture to run this program:
 #    - Using SSH from your computer
 #   When you have successfully run this program, change this _TODO_ to DONE.
@@ -38,8 +38,12 @@ def go_two_seconds():
 
 def run_test_go_inches():
     """ Tests the go_inches function. """
-    # TODO: 4.  Implement this function with at least 3 calls to go_inches
+    # DONE: 4.  Implement this function with at least 3 calls to go_inches
     #   with various inches and speeds.
+    go_inches(7, 76)
+    go_inches(2, 3)
+    go_inches(18, 98)
+    go_inches(10, 30)
 
 
 def go_inches(inches, percent_of_max_speed):
