@@ -18,11 +18,13 @@ import time
 def main():
     """ Calls the other functions to test/demo them. """
     go_two_seconds()
+    run_test_go_inches()
+    go_inches()
 
 
 def go_two_seconds():
     # -------------------------------------------------------------------------
-    # TODO: 3.
+    # DONE: 3.
     #   Make the robot move, by using this pattern:
     #    - Turn on (start) the wheel motors.
     #    - time.sleep(2)  # Pause here, let other processes run for 2 seconds
@@ -53,7 +55,10 @@ def go_inches(inches, percent_of_max_speed):
       :type inches: float
       :type percent_of_max_speed: float  -100 to 100
     """
-    # TODO: 5.  Implement and test this function.
-
+    # DONE: 5.  Implement and test this function.
+    go_inches(12, -25)
+    go_inches(9, -50)
+    go_inches(6, -75)
+    go_inches(3, -100)
 
 main()
